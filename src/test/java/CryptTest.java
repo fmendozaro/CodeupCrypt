@@ -10,4 +10,9 @@ public class CryptTest {
         assertEquals(CodeupCrypt.hashPassword("123"), "123");
     }
 
+    @Test
+    public void testCheckPassword(){
+        assertTrue("password matches", CodeupCrypt.checkPassword("strongPass", "str0ngP4ss"));
+    }
+
 }

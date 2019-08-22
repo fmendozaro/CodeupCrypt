@@ -30,4 +30,8 @@ public class CodeupCrypt {
         }
         return hash;
     }
+
+    public static boolean checkPassword(String password, String hash) {
+        return false;
+    }
 }
