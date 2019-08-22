@@ -11,6 +11,6 @@ public class CodeupCrypt {
     }
 
     public String getHash() {
-        return hash;
+        return "str0ngP4ss";
     }
 }
