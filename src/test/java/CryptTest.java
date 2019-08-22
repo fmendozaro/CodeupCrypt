@@ -13,6 +13,7 @@ public class CryptTest {
     @Test
     public void testCheckPassword(){
         assertTrue("password matches", CodeupCrypt.checkPassword("strongPass", "str0ngP4ss"));
+        assertFalse("password does not match", CodeupCrypt.checkPassword("123", "i2e"));
     }
 
 }
